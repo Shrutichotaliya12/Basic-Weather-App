@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/favicon img.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <span class="material-symbols-outlined"> location_on </span>
+        <input type="text" placeholder="enter city name" />
+        <button>
+          <span class="material-symbols-outlined btn"> search </span>
+        </button>
+      </div>
+      <div class="weather">
+        <img src="image/rain.png" class="weather-icon" alt="" />
+        <h1 class="temp">0<span>°C</span></h1>
+        <h2 class="city">Broken Clouds</h2>
+      </div>
+      <div class="details">
+        <div class="col">
+          <img src="image/humidity.png" alt="" />
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="image/wind.png" alt="" />
+          <div>
+            <p class="wind">15 km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="not-found">
+        <div class="box">
+          <img src="./image/404.png" alt="" />
+          <p>Oops! Location not found!</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
